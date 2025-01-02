@@ -82,7 +82,7 @@ class _LoginScreenState extends State<LoginScreen> {
             right: mq.width * .1,
             child: ElevatedButton.icon(
               onPressed: () {
-                Navigator.push(context,MaterialPageRoute(builder: (context) => HomeScreen()));
+               _handleGoogleAuthentication();
               },
               icon: Image.asset(
                 "assets/images/google.png",

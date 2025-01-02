@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
         )
       ),
-      home: HomeScreen(),
+      home: SplashScreen(),
     );
   }
 }
@@ -134,6 +134,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 _initializerFirebase() async {
+  WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );

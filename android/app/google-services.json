@@ -14,11 +14,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "990298675347-iqp7almh4t1tst8lnmvfh40g7bpdcs5p.apps.googleusercontent.com",
+          "client_id": "990298675347-cp395jir905um4uankvo5p1v89dp2nne.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.chatify",
-            "certificate_hash": "7593eaeb4b1779d6eb9f052ae8212ab21aad55c8"
+            "certificate_hash": "9502591eca9f778772b28615dae1bf6ad5c13021"
           }
         },
         {
